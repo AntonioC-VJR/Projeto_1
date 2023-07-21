@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
+
+body, html{
+    margin: 0;
+}
+
+.header{
+
+    
+    background-color: #162028;
+    color: white;    
+
+    height: 50px;
+    width: auto;
+
+    margin: 0;
+
+    padding: 10px;
+    display: flex;
+    gap: 60%;
+
+}
+
+
+.header h1{
+    margin: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin: 5px;
+
+}
+
+.header-list{
+
+    display: flex;
+    gap: 16px;
+
+}
+
+
+.header-list li{
+
+    list-style-type: none;
+}
+
+
+.header-list li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #425564;
+
+    transition: all;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.header-list li a:hover{
+    color: #ccc;
+}
