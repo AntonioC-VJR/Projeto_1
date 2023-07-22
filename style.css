@@ -57,3 +57,132 @@ body, html{
 .header-list li a:hover{
     color: #ccc;
 }
+
+.foto-modelo{
+
+    
+    width: auto;
+    height: 500px;
+
+
+    background-image: url(imagens/topo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 700px;
+    
+}
+
+
+.main-text{
+
+    color:#162028;
+    font-family: Roboto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.main-text h2{
+    text-transform: uppercase;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+.main-text p{
+
+    margin: 20px 100px 80px 100px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+
+.main-model{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.main-model__style{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    color: #162028;
+    font-family: roboto;
+
+}
+
+.second-article{
+
+    width: auto;
+    height: auto;
+
+    margin-top: 20px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("imagens/bg_detalhe.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 40px;
+
+    font-family: roboto;
+
+}
+
+.second-article h2{
+
+    text-transform: uppercase;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    font-size: 70px;
+
+
+}
+
+
+.second-article p{
+
+    text-align: justify;
+    margin: 5px 3px 0px 3px;
+    font-size: 30px;
+
+    padding-right:50%;
+
+}
+
+
+.copyright{
+
+    color:#6f8597;
+    background-color: #0b171f;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.copyright h3{
+
+    font-family: roboto;
+    margin-top: 8px;
+
+
+}
