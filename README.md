@@ -9,5 +9,5 @@ Sending the image .png that i will use as base to create my project.
 Sending the basic html file, that will structure the page.
 
 
-#3 push
+# 3 push
 Finishing the CSS configuration and correcting all possibles mistakes that can appears.
